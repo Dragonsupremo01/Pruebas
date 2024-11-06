@@ -133,7 +133,7 @@ body {
 /*_____________________________________________SECCIONES_____________________________________________*/
 .PrimeraSeccion {
     /*Imagen de fondo de obra*/
-    background: url("img/ImagenPrimeraSeccion.jpeg") no-repeat;
+    background: url("../images/Imagen-Portada.jpeg") no-repeat;
     background-position: center;
     background-size:cover;
     height: 447px;
@@ -293,7 +293,7 @@ body {
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 .TerceraSeccion {
-    background: url("img/ImagenTerceraSeccion.jpg") no-repeat;
+    background: url("../images/Imagen-Fondo2.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     height: auto;
@@ -479,7 +479,7 @@ form input[type="submit"]:hover {
 
 /*_____________________________________________PIE DE PAGINA_____________________________________________*/
 .piepagina{
-    background: url("img/Imagen-Fondo.png") no-repeat;
+    background: url("../images/Imagen-Fondo.png") no-repeat;
     background-position: center;
     background-size: cover;
     height: auto;
