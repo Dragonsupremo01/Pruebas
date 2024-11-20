@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>OjoCiudadano-PantallaObrasGobiernoRegional-PortalTech</title>
+    <title>OjoCiudadano-PantallaPrincipal-PortalTech</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,67 +24,39 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
     <link rel="icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="assets/styles/stylesPantGobRegObr.css" />
+    <link rel="stylesheet" href="assets/styles/StylesPantHistReportes.css" />
 </head>
 <body>
-    <!--___________________________________________________TOPHEADER___________________________________________________-->
+    <!--______________________________________ENCABEZADO______________________________________-->
     <nav class="topheader">
         <div class="topheader-container">
             <a href="index.html"><img width="200px" height="57px" src="assets/images/Logotipo-OjoCiudadanoBlanco.png" alt="LogotipoOjoCiudadano"></a>
-            <ul class="menu-horizontal">
-                <li><a>Conócenos ▼</a>
-                    <ul class="menu-vertical">
-                        <li><a href="PantSobreNosotros.html">Sobre nosotros</a></li>
-                        <li><a href="PantQueEs.html">¿Que es OjoCiudadano?</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://elpais.com/noticias/obras-publicas/">Noticias</a></li>
-                <li><a href="index.html#Menj-Formu">Ayuda</a></li>
-            </ul>
-            <div class="buscador">
-                <input type="text" placeholder="Buscar">
-                <div class="Ico-lupa">
-                    <i class="fas fa-search"></i>
-                </div>
-            </div>
             <div class="Btn-IniciarSesion">
-                <button class="Btn-IconoMensaje">
-                    <span>Iniciar Sesión</span>
-                    <i class="far fa-user"></i>
-                </button>
-                <ul class="menu-vertical">
-                    <li><a href="PantPerfiles.html">Ver perfil</a></li>
-                    <li><a>Carrar sesión</a></li>
-                </ul>
+                <a href="index.html"><button class="Btn-IconoMensaje">
+                    <i class="fas fa-chevron-left"></i>
+                    <span>Volver a la página principal</span>
+                </button></a>
             </div>
         </div>
     </nav>
-    <!--______________________________________OBRA GOBIERNO REGIONAL______________________________________-->
-    <section class="GobiernosRegionalesObras">
-        <div class="text">
-            <h1>Gobierno Regional de Cuzco (Gore Cuzco)</h1>
-            <p>Organizamos y conducimos la gestión pública regional, de acuerdo a sus competencias constitucionales exclusivas, compartidas y delegadas, en el marco de las políticas nacionales y sectoriales para contribuir al desarrollo integral y sostenible de la región.</p>
-        </div>
-        <div class="GobRegObr-container">
-            <div class="Opcion-GobRegObr">
-                <h2>Instalación de sistema de electrificación rural en nuevo Ccatun Rumi, san juan de la frontera y periferie de Pichari, distrito de Pichari, La Convención - Cusco</h2>
-                <p>FINALIZADO</p>
-                <div class="Btn-obrgobierno"><a href="PantDetalles.html"><button>Ver más</button></a></div>
-            </div>
 
-            <div class="Opcion-GobRegObr">
-                <h2>Mejoramiento redes de alcantarillado área de influencia de los interceptores Huatanay y general de la ciudad del Cusco)</h2>
-                <p>FINALIZADO</p>
-                <div class="Btn-obrgobierno"><a href="PantDetalles.html"><button>Ver más</button></a></div>
-            </div>
-
-            <div class="Opcion-GobRegObr">
-                <h2>Mejoramiento y ampliación del gimnasio multideportivo en el barrio de Kanchispugio, distrito y provincia de Paucartambo - Cusco</h2>
-                <p>EN EJECUCIÓN</p>
-                <div class="Btn-obrgobierno"><a href="PantDetalles.html"><button>Ver más</button></a></div>
-            </div>
+    <!--______________________________________CONTENIDO_______________________________________-->
+    <div class="container">
+        <div class="sidebar">
+            <a href="PantPerfiles.html"><button class="sidebar-button">Perfil</button></a>
+            <a href="PantHistReportes.html"><button class="sidebar-button-active">Reportes</button></a>
         </div>
-    </section>
+        <div class="Seccion-Reportes">
+            <h2>Tus reportes</h2>
+            <div class="Historial-Reportes-Container">
+                <p class="Nombre-Obra">Reporte de MEJORAMIENTO DE REDES DE ALCANTARILLADO AREA DE INFLUENCIA DE LOS INTERCEPTORES HUATANAY Y GENERAL DE LA CIUDAD DEL CUSCO</p>
+                <div class="Opciones-iconos">
+                    <a href="assets/documents/DocumentoExpediente.pdf"><button class="Icono-Compartir"><i class="fas fa-share-alt"></i><label>Compartir</label></button></a>
+                    <a href="assets/documents/DocumentoExpediente.pdf"><button class="Icono-Descargar"><img src="assets/images/Icono-Download.png"><label>Descargar</label></button></a>
+                </div>
+            </div>
+        </div>    
+    </div>
     <!--______________________________________PIE DE PAGINA______________________________________-->
     <footer class="piepagina">
         <div class="Contenedor-piepagina">
@@ -117,4 +89,5 @@
         </div>
     </footer>
 </body>
+<script src="assets/scripts/main.js"></script>
 </html>
