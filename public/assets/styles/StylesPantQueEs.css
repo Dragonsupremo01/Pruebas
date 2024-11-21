@@ -280,6 +280,7 @@ body {
     border: none;
     background-color: #FF0000;
     display: none;
+    margin-left: 20px;
 }
 
 .open-menu i{
@@ -379,8 +380,15 @@ body {
         height: auto;
     }
 
-    .buscador {
-        display: none;
+    .buscador{
+        display: flex;
+        width: 100%;
+        justify-content: right;
+    }
+
+    .Ico-lupa {
+        border-radius: 14px;
+        display: flex;
     }
 
     .buscador input[type=text]{
@@ -395,7 +403,7 @@ body {
     }
 
     .Btn-IniciarSesion {
-        padding-left: 22%;
+        padding-left: 0%;
     }
 
     .Btn-IniciarSesion span {
@@ -425,6 +433,17 @@ body {
         color: #ffffff;
         width: 100%;
         padding-right: 15px;
+    }
+
+    /* Título */
+    .GobReg-container h1 {
+        font-size: 35px; /*Tamaño normal 40*/
+    }
+
+    /* Párrafo */
+    .GobReg-container p {
+        font-size: 19px; /*Tamaño normal 22*/
+        line-height: 24px;
     }
 
     .Opciones {
