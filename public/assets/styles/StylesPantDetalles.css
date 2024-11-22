@@ -105,6 +105,7 @@ body {
     font-size: 30px;
     font-weight: 2;
     color: #ffffff;
+    color:none;
     font-style: none;
 }
 
@@ -483,4 +484,31 @@ body {
 
 .RedesSociales img:hover{
     cursor: pointer;
+}
+/*_________________________________________________RESPONSIVE_________________________________________________*/
+.open-menu {
+    border: none;
+    background-color: #FF0000;
+    display: none;
+    margin-left: 20px;
+}
+
+.open-menu i{
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.close-menu {
+    border: none;
+    background-color: #cacaca;
+    display: none;
+    padding: 0%;
+    margin: -6px 22px 0px 0px;
+}
+
+.close-menu i{
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    color: #000000;
 }
