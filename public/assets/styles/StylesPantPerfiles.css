@@ -117,24 +117,31 @@ body {
 
 .profile-content {
   display: flex;
-  align-items: flex-start; /* Alinea el formulario y la imagen en la parte superior */
-  justify-content: space-between;
+   /* Alinea el formulario y la imagen en la parte superior */
 }
 
 .profile-form {
+  width: 100%;
+}
+
+.datos-container{
+  display: flex;
+}
+
+.datos-usuario{
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  width: 60%; /* Ajusta el ancho del formulario */
+  width: 80%; /* Ajusta el ancho del formulario */
 }
 
-.profile-form label {
+.datos-usuario label {
   font-family: "Lexend", sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
   
-.profile-form input {
+.datos-usuario input {
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -184,7 +191,7 @@ body {
 
 /* Imagen de perfil */
 .profile-image {
-  width: 340px; 
+  width: 680px; 
   height: 340px;
   border-radius: 10px;
   padding-top: 45px;
@@ -193,6 +200,12 @@ body {
   background: url("../images/Imagen-PerfilUsuario.png") no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.Botones {
+  display: flex;
+  flex-direction: column;
+  width: 50.5%;
 }
 
 /*_____________________________________________PIE DE PAGINA_____________________________________________*/
@@ -263,4 +276,79 @@ body {
 
 .RedesSociales img:hover{
   cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .Btn-IniciarSesion span{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Btn-IconoMensaje{
+    width: auto;
+    height: 45px;
+  }
+
+  .Btn-IconoMensaje i{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .profile-section h2{
+    font-size: 35px;
+  }
+
+  .datos-container{
+    flex-direction: column;
+  }
+
+  .profile-image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .datos-usuario{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .Botones {
+    width: 100%;
+  }
+
+  .sidebar {
+    flex-direction: row;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  .sidebar a{
+    width: 100%;
+  }
+
+  .sidebar{
+    width: 100%;
+    border: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .profile-section{
+    margin-left: 0%;
+  }
+
+  .sidebar-button-active {
+    width: 95%;
+  }
+  
+  .sidebar-button {
+    width: 95%;
+  }
+  
+  .sidebar-button:hover {
+    width: 100%;
+  }
 }

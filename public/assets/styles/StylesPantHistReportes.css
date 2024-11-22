@@ -271,3 +271,64 @@ body {
 .RedesSociales img:hover{
   cursor: pointer;
 }
+
+@media (max-width: 768px){
+  .Btn-IniciarSesion span{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Btn-IconoMensaje{
+    width: auto;
+    height: 45px;
+  }
+
+  .Btn-IconoMensaje i{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .Seccion-Reportes h2{
+    font-size: 35px;
+  }
+
+  .Historial-Reportes-Container p{
+    font-size: 20px;
+  }
+
+  .sidebar {
+    flex-direction: row;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    width: 100%;
+    border: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .sidebar a{
+    width: 100%;
+  }
+
+  .Seccion-Reportes{
+    margin-left: 0%;
+  }
+
+  .sidebar-button-active {
+    width: 100%;
+  }
+  
+  .sidebar-button {
+    width: 95%;
+  }
+  
+  .sidebar-button:hover {
+    width: 95%;
+  }
+}

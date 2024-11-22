@@ -484,21 +484,21 @@ body {
     }
 
     /* Título */
-    .GobiernosRegionales h1 {
+    .GobiernosRegionalesObras h1 {
         font-size: 35px; /*Tamaño normal 40*/
     }
 
     /* Párrafo */
-    .GobiernosRegionales p {
+    .GobiernosRegionalesObras p {
         font-size: 19px; /*Tamaño normal 22*/
         line-height: 24px;
     }
 
-    .GobReg-container h2 {
+    .Opcion-GobRegObr h2 {
         font-size: 30px;
     }
 
-    .GobReg-container p {
+    .Opcion-GobRegObr p {
         font-size: 20px;
     }
 
